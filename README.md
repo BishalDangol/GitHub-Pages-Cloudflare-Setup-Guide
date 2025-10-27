@@ -63,7 +63,7 @@ Before you start, make sure you have the following ready:
 2. Choose your domain → go to the **DNS** tab.  
 3. Add these records:
 
-#### 🔸 Root Domain (`example.com`)
+####  Root Domain (`example.com`)
 | Type | Name | Value | Proxy |  
 |------|------|--------|-------|  
 | A | @ | 185.199.108.153 | ☁️ Proxied |  
@@ -71,7 +71,7 @@ Before you start, make sure you have the following ready:
 | A | @ | 185.199.110.153 | ☁️ Proxied |  
 | A | @ | 185.199.111.153 | ☁️ Proxied |  
 
-#### 🔸 Subdomain (`www.example.com`)
+####  Subdomain (`www.example.com`)
 | Type | Name | Value | Proxy |  
 |------|------|--------|-------|  
 | CNAME | www | yourusername.github.io | ☁️ Proxied |  
@@ -135,5 +135,5 @@ If something doesn’t work:
 
 ---
 
-✨ **Enjoy your free, secure, and fast website!**
+ **Enjoy your free, secure, and fast website!**
 
