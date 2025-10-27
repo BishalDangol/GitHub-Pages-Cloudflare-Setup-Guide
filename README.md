@@ -1,23 +1,23 @@
-# 🌐 GitHub Pages + Cloudflare Setup Guide
+# GitHub Pages + Cloudflare Setup Guide
 
 Easily host your static website **for free** using **GitHub Pages**, and secure it with **Cloudflare** using your **custom domain**.
 
 ---
 
-## 🧩 Pre-requirements
+##  Pre-requirements
 
 Before you start, make sure you have the following ready:
 
-- ✅ **Cloudflare account**  
-- ✅ **GitHub account**  
-- ✅ **Custom domain** connected to Cloudflare  
-- 🎥 **Interest in learning through video tutorials** (recommended)
+-  **Cloudflare account**  
+-  **GitHub account**  
+-  **Custom domain** connected to Cloudflare  
+-  **Interest in learning through video tutorials** (recommended)
 
 ---
 
-## ⚙️ Step-by-Step Setup
+##  Step-by-Step Setup
 
-### 🪣 Step 1: Create a GitHub Repository
+###  Step 1: Create a GitHub Repository
 
 1. Go to [GitHub](https://github.com) → click **New Repository**.  
 2. Enter any name you like (e.g., `my-website`).  
@@ -27,7 +27,7 @@ Before you start, make sure you have the following ready:
 
 ---
 
-### 📂 Step 2: Add Your Website Files
+###  Step 2: Add Your Website Files
 
 1. Upload your website files — `index.html`, `style.css`, `script.js`, etc.  
 2. Commit your changes.  
@@ -38,7 +38,7 @@ Before you start, make sure you have the following ready:
 
 ---
 
-### 🌍 Step 3: Enable GitHub Pages
+###  Step 3: Enable GitHub Pages
 
 1. Go to **Settings → Pages**.  
 2. Under **Source**, select:
@@ -49,7 +49,7 @@ Before you start, make sure you have the following ready:
    
 ---
 
-### 🔗 Step 4: Add a Custom Domain
+###  Step 4: Add a Custom Domain
 
 1. In **Settings → Pages**, under **Custom Domain**, type your domain:
 2. 2. Click **Save**.  
@@ -57,7 +57,7 @@ Before you start, make sure you have the following ready:
 
 ---
 
-### ☁️ Step 5: Configure Cloudflare DNS
+###  Step 5: Configure Cloudflare DNS
 
 1. Log in to your [Cloudflare Dashboard](https://dash.cloudflare.com).  
 2. Choose your domain → go to the **DNS** tab.  
@@ -80,17 +80,17 @@ Before you start, make sure you have the following ready:
 
 ---
 
-### 🔐 Step 6: Enable SSL/TLS in Cloudflare
+###  Step 6: Enable SSL/TLS in Cloudflare
 
 1. Go to **SSL/TLS** in your Cloudflare Dashboard.  
 2. Set **Encryption Mode** → `Full`.  
 3. Wait a few minutes for Cloudflare to issue the SSL certificate.  
 
-✅ Your site will now automatically use HTTPS.
+ Your site will now automatically use HTTPS.
 
 ---
 
-### 🧪 Step 7: Test Everything
+###  Step 7: Test Everything
 
 1. Open your browser and visit your domain:  
 
@@ -99,39 +99,39 @@ Before you start, make sure you have the following ready:
 
 ---
 
-### 🎬 Step 8: Watch the Tutorial Video
+###  Step 8: Watch the Tutorial Video
 
-🎥 Watch the reference video (if available) to better understand each step visually.
+ Watch the reference video (if available) to better understand each step visually.
 
 ---
 
-## 🧠 Tips & Optional Enhancements
+##  Tips & Optional Enhancements
 
-- 🔁 Use **Cloudflare Page Rules** to redirect:
+-  Use **Cloudflare Page Rules** to redirect:
 - `www → non-www` (or vice versa)
 - `http → https`  
-- 🚀 Enable **Auto Minify** and **Brotli Compression** under **Speed → Optimization** in Cloudflare.  
-- 💾 Commit often to keep your GitHub Pages updated automatically.  
+-  Enable **Auto Minify** and **Brotli Compression** under **Speed → Optimization** in Cloudflare.  
+-  Commit often to keep your GitHub Pages updated automatically.  
 
 ---
 
-## ✅ Final Result
+##  Final Result
 
 You now have a fully working setup:
-- 🌍 Free static site hosted on **GitHub Pages**  
-- ☁️ Secured and accelerated by **Cloudflare**  
-- 🔒 Protected by SSL/HTTPS  
-- 💡 Managed easily via your **GitHub repository**
+-  Free static site hosted on **GitHub Pages**  
+-  Secured and accelerated by **Cloudflare**  
+-  Protected by SSL/HTTPS  
+-  Managed easily via your **GitHub repository**
 
 ---
 
-### 💬 Need Help?
+### Need Help?
 
 If something doesn’t work:
 - Recheck your DNS settings on Cloudflare  
 - Verify your GitHub Pages URL  
 - Wait for DNS propagation (~30 mins to 24 hrs)  
-- Or refer to Cloudflare + GitHub Pages documentation  
+- Or refer to Cloudflare + GitHub Pages documentation or contact me
 
 ---
 
